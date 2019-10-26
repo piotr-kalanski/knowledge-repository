@@ -4,7 +4,7 @@ import os
 import yaml
 
 TAGS_FILE = 'tags.yml'
-OUTPUT_FILE = 'table.md'
+OUTPUT_FILE = 'tags_per_directory.md'
 
 with open(OUTPUT_FILE, 'w') as out:
     out.write('|Directory|Tags|\n')
