@@ -7,15 +7,15 @@ Basic example of behave https://behave.readthedocs.io/en/latest/
 ## Installation
 
 - Install pip
-- Install virtual env
+- Install virtualenv
 
-    pip install virtualenv
+        pip install virtualenv
 
 - Create virtualenv
 
-    virtualenv env
+        virtualenv env
 
-- Activate virtual env
+- Activate virtualenv
 
     Windows cmd:
 
@@ -31,7 +31,7 @@ Basic example of behave https://behave.readthedocs.io/en/latest/
 
 - Install requirements
 
-    pip install -r requirements.txt
+        pip install -r requirements.txt
 
 ## Execute test
 
