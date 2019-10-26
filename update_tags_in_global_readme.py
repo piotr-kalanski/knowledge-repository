@@ -16,4 +16,4 @@ with open(OUTPUT_FILE, 'w') as out:
                 with open(os.path.join(directory, TAGS_FILE)) as f:
                     tags = yaml.safe_load(f)
                     tags_string = ','.join(tags)
-                    out.write(f'|{directory}|{tags_string}|\n')
+                    out.write(f'|[{directory}/]({directory}/)|{tags_string}|\n')
