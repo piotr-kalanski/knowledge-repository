@@ -28,10 +28,7 @@ class App extends Component {
   }
 
   handlePageClick = data => {
-    let selected = data.selected;
-    let currentPage = selected + 1;
-
-    this.setState({ currentPage: currentPage });
+    this.setState({ currentPage: data.selected + 1 });
   };
 
   componentDidMount () {
