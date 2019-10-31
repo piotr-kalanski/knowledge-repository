@@ -9,5 +9,4 @@
 |[python-multithreading/](python-multithreading/)|python,threads|
 |[python-pandas/](python-pandas/)|python,pandas|
 |[react-pagination/](react-pagination/)|react,pagination|
-|[react-unit-test/](react-unit-test/)|react,REST API|
 |[scraping-with-tor/](scraping-with-tor/)|python,tor,scraping|
