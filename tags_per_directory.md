@@ -2,6 +2,7 @@
 |---|---|
 |[python-behave/](python-behave/)|python,behave,bdd|
 |[python-dynaconf/](python-dynaconf/)|python,configuration,dynaconf|
+|[python-flask-rest-api/](python-flask-rest-api/)|python,flask,REST API,swagger|
 |[python-localstack/](python-localstack/)|python,localstack,AWS|
 |[python-multithreading/](python-multithreading/)|python,threads|
 |[python-pandas/](python-pandas/)|python,pandas|
