@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-unit-tests",
+  "version": "1.0.0",
+  "description": "npm init",
+  "main": "logic.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}
