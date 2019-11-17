@@ -11,7 +11,10 @@ const IntegrationWithRestAPIAutosuggestFunctional = (props) => {
   const [suggestions, setSuggestions] = useState([]);
   const [isLoading, setLoading] = useState(false);
 
-  const getSuggestionValue = useCallback(suggestion => suggestion.name, []);
+  const getSuggestionValue = useCallback(suggestion => {
+    props.onChange(suggestion);
+    return suggestion.name;
+  }, [props]);
   
   const renderSuggestion = useCallback(suggestion => {
     return (
@@ -33,10 +36,7 @@ const IntegrationWithRestAPIAutosuggestFunctional = (props) => {
       });
   }, []);
   
-  const onChange = useCallback((event, { newValue }) => {
-    setValue(newValue);
-    props.onChange(newValue);
-  }, [props]);
+  const onChange = useCallback((event, { newValue }) => setValue(newValue), []);
       
   const onSuggestionsFetchRequested = useCallback(({ value }) => {
     loadSuggestions(value);
